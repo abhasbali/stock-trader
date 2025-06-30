@@ -145,7 +145,7 @@ export function Dashboard() {
                 </div>
               ) : (
                 <div className="space-y-2">
-                  {topStocks.map((stock) => (
+                  {topStocks.map((stock: any) => (
                     <motion.div
                       key={stock.symbol}
                       className={`p-3 rounded-lg cursor-pointer transition-all ${
@@ -278,7 +278,7 @@ export function Dashboard() {
               <Card className="bg-black/40 border-lime-400/30 p-4">
                 <h3 className="text-lg font-semibold mb-4 text-lime-400">Market Movers</h3>
                 <div className="space-y-3">
-                  {topStocks.slice(0, 5).map((stock) => (
+                  {topStocks.slice(0, 5).map((stock: any) => (
                     <div key={stock.symbol} className="flex justify-between items-center">
                       <div>
                         <div className="font-semibold">{stock.symbol}</div>
