@@ -78,4 +78,4 @@ You can deploy the frontend on **Vercel** and backend on **Render**, **Railway**
 
 ---
 
-Made with ❤️ by Team Stock-Trader
+Made with ❤️ by Abhas Bali
