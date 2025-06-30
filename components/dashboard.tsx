@@ -75,7 +75,7 @@ export function Dashboard() {
   };
 
   const watchlistSymbols = getWatchlistSymbols();
-  const topStocks = watchlistSymbols.map(symbol => ({
+  const topStocks = watchlistSymbols.map((symbol: string) => ({
     symbol,
     ...(marketData[symbol] || { price: 0, change: 0, changePercent: 0 })
   }));
